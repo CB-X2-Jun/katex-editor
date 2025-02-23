@@ -72,7 +72,7 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>KaTeX Online Editor</h1>
+            <h1>KaTeX 在线编辑预览</h1>
             <textarea id="latex-input" placeholder="在这里输入你的 KaTeX 源码..."></textarea>
             <div id="rendered-formula"></div>
         </div>
@@ -84,9 +84,8 @@
   owner: 'CB-X2-Jun',
   admin: ['CB-X2-Jun'],
   id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false,  // Facebook-like distraction free mode
-  labels: ['GitalkComments'],
-  language: 'ja'
+  distractionFreeMode: true,  // Facebook-like distraction free mode
+  labels: ['GitalkComments']
 })
 
 gitalk.render('gitalk-container')</script>
